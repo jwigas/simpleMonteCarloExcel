@@ -70,7 +70,7 @@ console.log("According to the Z score table, the P(Z>",xMax,") is 0.477")
 //Printed in html
 document.getElementById("Values4")
     .innerHTML= "counted: " + data[0].length + " total samples: " + numOfSamples + " Ratio: " + ratio + "</br>"
-                +"area of Triangle is :" + AreaOfFunctionMC(xMin,xMax,yMin,yMax,ratio) + "</br>"
+                + "area under the curve is :" + AreaOfFunctionMC(xMin,xMax,yMin,yMax,ratio) + "</br>"
                 + "According to the Z score table, the P(Z>"+xMax+") is 0.477" + "</br>"
                 + "Thank you Robi Dany Riupassa for the "
                 + '<a href="https://www.researchgate.net/publication/327906563_SIMULASI_MONTE_CARLO_UNTUK_PENENTUAN_NILAI_PROBABILITAS_DISTRIBUSI_NORMAL_MENGGUNAKAN_VISUAL_BASIC_APPLICATIONS">'
