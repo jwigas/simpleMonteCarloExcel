@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -19,7 +20,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     </div>
 
     <!-- !PAGE CONTENT! -->
-    <div class="w3-row-padding w3-padding-64 w3-center" style="max-width:auto;margin-top:75px">
+    <div class="w3-row-padding w3-padding-16 w3-center" style="max-width:auto;margin-top:75px">
         
         <div class="w3-third">
             <h3>Exponential</h3>
@@ -43,6 +44,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
         </div>
     </div>
 
+    <div class="w3-row-padding w3-padding-16 w3-center">
+        <h3>Probability Function</h3>
+        <h2>(1/sqrt(2*PI))*exp(-Z^2 /2)</h2>
+        <p id="Values4"></p>
+        <div id="Plot4"></div>
+    </div>
+
  <!-- Footer -->
  <footer class="w3-row-padding w3-padding-32">
     <div class="w3-third">
@@ -51,5 +59,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     </div>
 </body>
 <script src='MonteCarlo_exponential.js'></script>
-<script src='MonteCarlo_quarterCircle.js'></script>
+<script src='MonteCarlo_QuarterCircle.js'></script>
 <script src='MonteCarlo_triangle.js'></script>
+<script src='MonteCarlo_probabilityFunc.js'></script>
